@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	background-repeat: no-repeat;
 	background-position: top center;
 	position: relative;
-	margin-bottom: 26em;
+	margin-bottom: 14em;
 	@media screen and (max-width:$screen-xs ) {
 		margin-bottom: 14em;
 	}
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #main {
-	margin-top: 14em;
+	margin-top: 1em;
 	clear: both;
 	@media screen and (max-width: $screen-xs) {
 		margin-top: 8em;
@@ -364,6 +364,19 @@ h1, h2, h3, h4, h5, h6, figure {
 			
 		}
 
+	}
+
+}
+
+.newsletter{
+	padding: 2em 0;
+	background: lighten($brand-black, 15%);
+	color: $brand-white;
+	a {
+		color: $brand-secondary;
+	}
+	h2 {
+		color: $brand-white;
 	}
 
 }
